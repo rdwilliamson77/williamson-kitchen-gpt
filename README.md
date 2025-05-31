@@ -5,7 +5,7 @@ The Williamson family kitchen guide
 A personal, structured, and conversational cooking memoir.
 
 This repo contains:
-- 100+ family recipes in YAML format
+- Hundreds of family recipes in YAML format
 - Personal stories, techniques, voice notes, and images
 - A metadata system for GPT interaction and family legacy
 
