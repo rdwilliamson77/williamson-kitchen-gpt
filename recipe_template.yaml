@@ -1,0 +1,53 @@
+# Master Recipe Template - Williamson Family Kitchen GPT
+# This schema is used for all recipes and must remain consistent across files.
+
+title: ""
+slug: ""
+source: ""
+cuisine: ""
+category: ""
+servings: ""
+
+time:
+  prep: 
+  cook: 
+  total: 
+
+tags: []
+
+layout: "standard"
+
+context:
+  story: >
+    
+  notes: >
+
+ingredients:
+  - item: ""
+
+instructions:
+  - ""
+
+notes: []
+
+media:
+  image: ""
+  voice_note: ""
+  story_fragments: ""
+
+related_recipes: []
+related_techniques: []
+
+source_notes: >
+
+emotional_tags: []
+personal_notes: ""
+contributor: ""
+collection: ""
+status: ""
+created: 
+last_updated: 
+template_variant: ""
+display_order: 
+layout_hints: []
+style_class: ""
