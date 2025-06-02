@@ -1,0 +1,65 @@
+title: "Angel Biscuits"
+slug: "angel-biscuits"
+source: "Lois Gault"
+cuisine: "Southern"
+category: "Bread"
+servings: ""
+prep_time: ""
+cook_time: "15–20 minutes"
+total_time: ""
+tags:
+  - "biscuits"
+  - "southern baking"
+  - "make-ahead dough"
+  - "yeast bread"
+layout: "standard"
+context:
+  story: >
+    From the kitchen of Iris Gault. This recipe makes a soft, tender biscuit dough that stores in the fridge for up to three weeks, 
+    perfect for baking fresh biscuits on demand.
+  notes: >
+    Recipe calls for one cake of yeast (roughly equivalent to one envelope or 2 1/4 tsp active dry yeast).  
+    Dough keeps well refrigerated in a covered bowl for 2–3 weeks.
+ingredients:
+  - item: "5 cups flour"
+  - item: "3 teaspoons baking powder"
+  - item: "1 teaspoon baking soda"
+  - item: "1 teaspoon salt"
+  - item: "4 tablespoons sugar"
+  - item: "1 cup shortening"
+  - item: "2 cups buttermilk"
+  - item: "1 cake yeast (dissolved in 2 tablespoons warm water)"
+instructions:
+  - "Dissolve yeast in 2 tablespoons warm water."
+  - "Sift dry ingredients together in a large bowl."
+  - "Cut in shortening and mix to combine."
+  - "Add buttermilk and dissolved yeast, mixing until all the flour is dampened."
+  - "Turn out onto floured board and knead for 2–3 minutes."
+  - "Store dough in a covered bowl and refrigerate. Keeps for 2–3 weeks."
+  - "When ready to bake, roll or pat out dough."
+  - "Cut with biscuit cutter to desired size and number."
+  - "Bake at 450°F for 15–20 minutes."
+notes: []
+media:
+  image: "images/angel-biscuits.jpg"
+  voice_note: ""
+  story_fragments: ""
+related_recipes: []
+related_techniques:
+  - "yeast-leavened biscuits"
+  - "make-ahead dough"
+  - "southern baking"
+source_notes: >
+  Transcribed from a handwritten recipe by Lois Gault. A refrigerator-friendly biscuit dough
+  ideal for holiday breakfasts or anytime a fresh-baked biscuit is needed.
+emotional_tags: []
+personal_notes: ""
+contributor: "Ryan Williamson"
+status: "final"
+collection: "Williamson Family Core"
+created: 2024-06-01
+last_updated: 2025-06-02
+template_variant: "standard"
+display_order: 4
+layout_hints: []
+style_class: ""

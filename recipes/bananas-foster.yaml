@@ -1,0 +1,55 @@
+title: "Bananas Foster"
+slug: "bananas-foster"
+source: "Commander’s Palace"
+cuisine: "Creole / New Orleans"
+category: "Dessert"
+servings: "2"
+time:
+  prep: ""
+  cook: ""
+  total: ""
+tags:
+  - "flambé"
+  - "bananas"
+  - "rum"
+  - "ice cream"
+  - "New Orleans"
+layout: "standard"
+context:
+  story: ""
+  notes: ""
+ingredients:
+  - item: "4 tablespoons (1/2 stick) unsalted butter"
+  - item: "4 tablespoons brown sugar"
+  - item: "2 ripe bananas, peeled and sliced lengthwise"
+  - item: "1/4 teaspoon cinnamon"
+  - item: "2 tablespoons banana liqueur"
+  - item: "3 ounces light or dark rum"
+  - item: "1 1/2 cups French Vanilla Ice Cream (page 172)"
+instructions:
+  - "Melt butter in a flat chafing dish or skillet. Add brown sugar and stir until sugar is melted. Add bananas and sauté until tender, about 3 minutes on each side. Sprinkle with cinnamon."
+  - "Pour banana liqueur and rum over bananas, shake pan to distribute the liquid, and flame. Baste bananas with the flaming sauce until flames die out."
+  - "Serve immediately over the ice cream."
+notes: []
+media:
+  image: "images/bananas-foster.jpg"
+  voice_note: ""
+  story_fragments: ""
+related:
+  recipes: []
+  techniques:
+    - "flambé"
+source_notes: >
+  From *Commander’s Kitchen* (1984). This classic New Orleans dessert was created to honor Richard Foster,
+  a civic leader in the 1950s. It has since become one of the city’s most iconic flambéed dishes.
+emotional_tags: []
+personal_notes: ""
+contributor: "Ryan Williamson"
+status: "final"
+collection: "Williamson Family Core"
+created: 2024-06-01
+last_updated: 2025-06-02
+template_variant: "standard"
+display_order: 4
+layout_hints: []
+style_class: ""

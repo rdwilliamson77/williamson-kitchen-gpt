@@ -1,0 +1,74 @@
+title: "Beth’s Chicken Enchiladas"
+slug: "beths-chicken-enchiladas"
+source: "Great Tastes of the Witherspoon Women"
+cuisine: "Tex-Mex / American"
+category: "Main Dish"
+servings: ""
+time:
+  prep: ""
+  cook: "30–40 minutes"
+  total: ""
+tags:
+  - "enchiladas"
+  - "chicken"
+  - "casserole"
+  - "tex-mex"
+  - "family recipe"
+layout: "standard"
+context:
+  story: ""
+  notes: >
+    This sauce is fairly mild but can be spiced up with red pepper or other hot additions. 
+    Recipe can be made lower-fat by using fat-free sour cream, cheese, butter, and tortillas—just don’t forget the guacamole!
+ingredients:
+  - item: "4 boneless chicken breasts"
+  - item: "3 tablespoons butter"
+  - item: "1 large onion, chopped"
+  - item: "1 can chopped green chilies"
+  - item: "2 tablespoons flour"
+  - item: "2 cups chicken broth"
+  - item: "1 can lowfat cream of chicken soup"
+  - item: "1 cup sour cream"
+  - item: "1 teaspoon Mexican seasonings"
+  - item: "1 pound grated Monterey Jack cheese"
+  - item: "flour tortillas"
+  - item: "chopped tomatoes (for garnish)"
+  - item: "picante sauce (for garnish)"
+  - item: "shredded lettuce (for garnish)"
+  - item: "guacamole (for garnish)"
+instructions:
+  - "Cook chicken breasts in water seasoned with salt, pepper, and a chicken bouillon cube. Cool, chop, and set aside."
+  - "In a large saucepan, melt butter. Sauté onion until translucent. Add green chilies and Mexican seasonings."
+  - "Cook for a few minutes longer, then stir in flour and blend well."
+  - "Stir in chicken broth and cook until bubbly."
+  - "Add cream of chicken soup, sour cream, and half the grated cheese. Heat through but do not boil."
+  - "Combine remaining cheese with chopped chicken."
+  - "Spread 1/2 cup of the sauce in the bottom of a large rectangular baking dish."
+  - "Fill tortillas with the chicken/cheese mixture and place seam-side down in dish."
+  - "Cover enchiladas with remaining sauce. Cover with foil and bake at 350°F for 30–40 minutes."
+  - "Serve topped with lettuce, tomatoes, picante sauce, guacamole, and sour cream."
+notes: []
+media:
+  image: "images/beths-chicken-enchiladas.jpg"
+  voice_note: ""
+  story_fragments: ""
+related:
+  recipes: []
+  techniques:
+    - "enchilada assembly"
+    - "sauce thickening"
+    - "baking"
+source_notes: >
+  From *Great Tastes of the Witherspoon Women*, an unpublished family cookbook compiled by Kathryn, Katie, Jeanne, and Beth.
+  A creamy, Tex-Mex-style chicken enchilada dish with flexible heat level and garnish options.
+emotional_tags: []
+personal_notes: ""
+contributor: "Ryan Williamson"
+status: "final"
+collection: "Williamson Family Core"
+created: 2024-06-01
+last_updated: 2025-06-02
+template_variant: "standard"
+display_order: 5
+layout_hints: []
+style_class: ""
