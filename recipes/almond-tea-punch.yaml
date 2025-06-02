@@ -1,0 +1,53 @@
+title: "Almond Tea Punch"
+slug: "almond-tea-punch"
+source: "Great Tastes of the Witherspoon Women"
+cuisine: "American / Southern"
+category: "Beverage"
+servings: ""
+prep_time: ""
+cook_time: ""
+total_time: ""
+tags:
+  - "punch"
+  - "tea"
+  - "wedding"
+  - "non-alcoholic"
+  - "party"
+layout: "standard"
+context: |
+  story: >
+    Similar to the punch served at John & Wendy’s wedding reception, as well as Ryan & Sarah’s.
+  notes: >
+    For best results, chill the tea mixture thoroughly and add ginger ale just before serving.
+ingredients:
+  - item: "1/2 cup lemon juice"
+  - item: "2 cups sugar"
+  - item: "1 quart water"
+  - item: "2 cups strong tea"
+  - item: "1 tablespoon vanilla"
+  - item: "2 tablespoons almond extract"
+  - item: "2 quarts ginger ale"
+instructions:
+  - "Boil 2 cups of water and steep a family-sized tea bag in it for 15 minutes, covered."
+  - "Add sugar, lemon juice, vanilla, and almond extract to the tea and mix thoroughly until sugar is dissolved."
+  - "Add another quart of water. Refrigerate until ready to serve."
+  - "Add ginger ale just before serving. Serve over ice."
+notes: []
+media:
+  image: "images/almond-tea-punch.jpg"
+  voice_note: ""
+  story_fragments: ""
+related_recipes: []
+related_techniques: []
+source_notes: ""
+emotional_tags: []
+personal_notes: ""
+contributor: "Ryan Williamson"
+status: "final"
+collection: "Williamson Family Core"
+created: 2024-06-01
+last_updated: 2025-06-02
+template_variant: "standard"
+display_order: 3
+layout_hints: []
+style_class: ""
