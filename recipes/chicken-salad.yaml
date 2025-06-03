@@ -1,0 +1,59 @@
+title: "Chicken Salad"
+slug: "chicken-salad"
+source: "Amy Batchelor"
+cuisine: "American"
+category: "Salad"
+servings: ""
+time:
+  prep: ""
+  cook: ""
+  total: ""
+tags:
+  - "chicken salad"
+  - "cold salad"
+  - "grapes"
+  - "almonds"
+  - "make-ahead"
+layout: "standard"
+context:
+  story: >
+    A creamy, slightly sweet chicken salad from Amy Batchelor, made with whipped cream, mayo, grapes, and slivered almonds.
+  notes: >
+    This version combines both whipped cream and mayonnaise for a light texture. Red grapes give it sweetness, while celery and almonds 
+    add crunch. Best served chilled.
+ingredients:
+  - item: "3 cups cooked chicken, cubed"
+  - item: "1 cup chopped celery"
+  - item: "1 cup red grapes, cut in half"
+  - item: "1/2 cup almonds, slivered"
+  - item: "1/2 cup whipped cream"
+  - item: "3/4 cup mayonnaise"
+  - item: "Salt, to taste"
+instructions:
+  - "In a large bowl, combine chicken, celery, grapes, and almonds."
+  - "Gently fold in whipped cream and mayonnaise until evenly mixed."
+  - "Season with salt to taste."
+  - "Chill before serving."
+notes: []
+media:
+  image: "images/chicken-salad.jpg"
+  voice_note: ""
+  story_fragments: ""
+related_recipes: []
+related_techniques:
+  - "cold mixing"
+  - "folding"
+source_notes: >
+  Transcribed from a handwritten card by Amy Batchelor. This chicken salad offers a classic Southern-style blend of savory and sweet, 
+  perfect for luncheons, sandwiches, or serving on a bed of lettuce.
+emotional_tags: []
+personal_notes: ""
+contributor: "Ryan Williamson"
+status: "final"
+collection: "Williamson Family Core"
+created: 2024-06-01
+last_updated: 2025-06-02
+template_variant: "standard"
+display_order: 8
+layout_hints: []
+style_class: ""

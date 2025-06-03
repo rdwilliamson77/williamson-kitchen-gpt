@@ -1,0 +1,96 @@
+title: "New England Clam Chowder"
+slug: "new-england-clam-chowder"
+source: "Jasper White, *50 Chowders*"
+cuisine: "New England / American"
+category: "Soup"
+servings: "10 (as first course); 6 (as main course)"
+time:
+  prep: ""
+  cook: ""
+  total: ""
+tags:
+  - "clam chowder"
+  - "quahog"
+  - "seafood"
+  - "soup"
+  - "new england"
+layout: "standard"
+context:
+  story: >
+    There are two quintessential New England clam chowders: the first is made with hard-shell quahogs, 
+    the second with soft-shell clams (see Steamer Clam Chowder, page 114). Both feature a rich creamy broth 
+    with clams, potatoes, onion, celery, and salt pork or bacon. Quahogs and large cherrystones (which are really 
+    just smaller quahogs) are plentiful in fish markets and make a powerful and briny clam chowder. 
+    The broth quahogs produce is herbaceous, especially briny, and not the least bit delicate. 
+    Its unique flavor permeates a chowder, and it needs aggressive flavors like garlic and bacon to complement it. 
+    This chowder delivers huge flavor and a true taste of Cape Cod and the Bay State (Massachusetts). 
+    Be generous with the parsley and chive garnish, since the colors of the chowder are otherwise neutral.
+
+    The word quahog comes from the Abnaki (Native American) name for hard-shell clams, *quauhaug*. 
+    These round hard-shell clams live in sand and mud flats, below the high-tide mark, where they can be dug or raked 
+    at low tide. They are found only on the eastern seaboard of North America. However, two similar but smoother-shelled 
+    clams from the West Coast, the butter clam and the Pacific littleneck clam, are not quahogs, but they do make a fine chowder. 
+    The East Coast littleneck clams, top neck clams, and cherrystone clams are all small quahogs. For some unknown reason, 
+    though, we only call the large ones (10 to 16 ounces) quahogs. The term *chowder clam* applies to any quahog that is too 
+    large to be eaten raw.
+  notes: >
+    This chowder begins with an easy clam broth. Follow the procedure for basic clam broth on page 62, where I also give options 
+    for using smaller clams like littlenecks.
+
+    Make this chowder with either bacon or salt pork. I like both, but prefer bacon here.
+
+    Serve in small cups as a starter with toasted common crackers or Pilot crackers or as a meal in bowls with crackers on the side. 
+    If you have extra clams, make Clam Fritters (page 225). Skillet Corn Bread (page 219) or Corn Sticks (page 220) or Anadama Bread 
+    (page 217) are good too. In New England, it is traditional to put a dollop of cold butter on top of each serving.
+
+    For equipment, you will need an 8-quart pot with a tight-fitting lid (for steaming open the clams), a fine-mesh strainer, 
+    a 4- to 6-quart heavy pot with a lid (for the chowder), a wooden spoon, and a ladle.
+ingredients:
+  - "8 pounds small quahogs or large cherrystone clams"
+  - "4 ounces slab (unsliced) bacon, rind removed and cut into 1/3-inch dice"
+  - "4 tablespoons unsalted butter"
+  - "2 medium onions (12 to 14 ounces), cut into 1/2-inch dice"
+  - "2 cloves garlic, finely chopped"
+  - "2 stalks celery (4 ounces), cut into 1/3-inch dice"
+  - "5 to 6 sprigs fresh thyme, leaves removed and chopped (2 teaspoons)"
+  - "2 dried bay leaves"
+  - "2 pounds Yukon Gold, Maine, PEI, or other all-purpose potatoes, peeled and cut into 1/2-inch dice"
+  - "Reserved clam broth (should yield 4 cups from steaming)"
+  - "1 1/2 cups heavy cream (or up to 2 cups if desired)"
+  - "Freshly ground black pepper"
+  - "Kosher or sea salt, as needed"
+for_garnish:
+  - "2 tablespoons chopped fresh Italian parsley"
+  - "2 tablespoons minced fresh chives"
+instructions:
+  - "Scrub and rinse clams. Steam open following instructions on page 64 of *50 Chowders*. You should have 4 cups of broth and 1 pound of clam meat. Strain broth and refrigerate. Dice clam meat into 1/2-inch pieces and refrigerate."
+  - "In a 4- to 6-quart heavy pot over low heat, cook bacon until golden. Pour off all but 1 tablespoon of fat, leaving bacon in the pot."
+  - "Add butter, onions, garlic, celery, thyme, and bay leaves. Sauté for about 10 minutes, until onions are softened but not browned."
+  - "Add potatoes and reserved clam broth. Add water if needed to cover. Bring to a boil, cover, and cook vigorously for 10 minutes, until potatoes are soft on the outside but firm in the center. Smash a few potatoes against the side of the pot to release starch if needed."
+  - "Remove from heat. Stir in diced clams and cream. Season with pepper and adjust salt if needed. Let chowder sit at room temperature for up to 1 hour or chill and reheat later."
+  - "Reheat gently over low heat without boiling. Ladle into bowls, ensuring even distribution of clams and potatoes. Garnish with parsley and chives."
+notes:
+  - "Makes 10 cups. Serves 10 as a first course or 6 as a main course."
+media:
+  image: "images/new-england-clam-chowder.jpg"
+  voice_note: ""
+  story_fragments: ""
+related_recipes: []
+related_techniques:
+  - "clam broth"
+  - "chowder base"
+  - "seafood preparation"
+source_notes: >
+  From *50 Chowders* by Jasper White. This is a traditional New England chowder made with steamed hard-shell quahogs 
+  or cherrystones, bacon, clam broth, and cream. Recipe includes regional and culinary commentary typical of White’s writing.
+emotional_tags: []
+personal_notes: ""
+contributor: "Ryan Williamson"
+status: "final"
+collection: "Williamson Family Core"
+created: 2024-06-01
+last_updated: 2025-06-02
+template_variant: "standard"
+display_order: 10
+layout_hints: []
+style_class: ""

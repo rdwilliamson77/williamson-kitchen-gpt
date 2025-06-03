@@ -1,0 +1,77 @@
+title: "Bread Pudding with Rum Sauce"
+slug: "bread-pudding"
+source: "Commander’s Palace"
+cuisine: "Creole / Southern"
+category: "Dessert"
+servings: "6"
+time:
+  prep: ""
+  cook: "45–50 minutes"
+  total: ""
+tags:
+  - "bread pudding"
+  - "rum sauce"
+  - "dessert"
+  - "creole"
+layout: "standard"
+context:
+  story: >
+    Originally devised as a way to use leftover stale French bread, bread pudding has become one of the most popular 
+    classic New Orleans desserts. Every cook has a secret version. Commander’s is served hot from the oven with a thin 
+    clear rum sauce. If there’s any left over, it’s perfect for their bread pudding soufflé.
+  notes: >
+    The custard should be soft, not firm, when done. This dish is excellent served hot and is also great with grilled 
+    pineapple slices drizzled with the clear rum sauce.
+ingredients:
+  - item: "1 cup sugar"
+  - item: "8 tablespoons (1 stick) butter, softened"
+  - item: "5 eggs, beaten"
+  - item: "2 cups heavy cream"
+  - item: "Dash of cinnamon"
+  - item: "1 tablespoon vanilla extract"
+  - item: "1/4 cup raisins"
+  - item: "12 slices (1 inch thick) of fresh or stale French bread"
+
+clear_rum_sauce:
+  - item: "1 cup sugar"
+  - item: "2 3/4 cups water"
+  - item: "1 cinnamon stick or 1 teaspoon ground cinnamon"
+  - item: "1 tablespoon unsalted butter"
+  - item: "1/2 teaspoon cornstarch"
+  - item: "1 tablespoon light or dark rum"
+
+instructions:
+  - "Preheat oven to 350°F."
+  - "In a large bowl, cream together sugar and butter. Add eggs, cream, cinnamon, vanilla, and raisins. Mix well."
+  - "Pour mixture into a 9-inch square pan, 1 3/4 inches deep."
+  - "Arrange bread slices flat in the mixture and let stand 5 minutes to soak. Turn over and soak 10 minutes more. Push bread down so most is covered, but do not break the bread."
+  - "Set pan in a larger pan filled with water to 1/2 inch from top. Cover with foil."
+  - "Bake for 45 to 50 minutes, uncovering during last 10 minutes to brown the top. Custard should remain soft."
+  - "While pudding bakes, make sauce: combine sugar, 2 1/2 cups water, cinnamon, and butter in saucepan. Bring to boil."
+  - "Dissolve cornstarch in remaining 1/4 cup water, stir into sauce, and simmer until clear. Remove from heat and stir in rum."
+  - "To serve, spoon pudding onto dessert plates and pass the sauce separately."
+notes:
+  - "Clear rum sauce also pairs well with fresh pineapple slices. Heat pineapple (do not cook) and drizzle with sauce."
+media:
+  image: "images/bread-pudding.jpg"
+  voice_note: ""
+  story_fragments: ""
+related_recipes:
+  - "bread-pudding-souffle-whiskey-sauce"
+related_techniques:
+  - "water bath baking"
+  - "custard"
+  - "rum sauce"
+source_notes: >
+  From *Commander’s Kitchen*, 1984 edition, page 168. This recipe forms the base of the Bread Pudding Soufflé served at Commander’s Palace.
+emotional_tags: []
+personal_notes: ""
+contributor: "Ryan Williamson"
+status: "final"
+collection: "Williamson Family Core"
+created: 2024-06-01
+last_updated: 2025-06-02
+template_variant: "standard"
+display_order: 7
+layout_hints: []
+style_class: ""

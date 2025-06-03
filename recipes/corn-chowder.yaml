@@ -1,0 +1,73 @@
+title: "Corn Chowder"
+slug: "corn-chowder"
+source: "50 Chowders by Jasper White"
+cuisine: "American / New England"
+category: "Soup"
+servings: "6"
+time:
+  prep: ""
+  cook: ""
+  total: ""
+tags:
+  - "chowder"
+  - "corn"
+  - "soup"
+  - "creamy"
+  - "farmhouse"
+  - "bacon"
+layout: "standard"
+context:
+  story: ""
+  notes: >
+    This chowder takes inspiration from traditional Shaker-style preparations and uses fresh corn, diced bacon, 
+    and a slurry of cornstarch for added creaminess. Yukon Gold or other all-purpose potatoes provide body, 
+    and the combination of thyme, cumin, and turmeric lends subtle depth and warmth.
+ingredients:
+  - "3 medium ears fresh yellow or bicolor corn"
+  - "4 ounces slab (unsliced) bacon, rind removed and cut into 1/2-inch dice"
+  - "2 tablespoons unsalted butter"
+  - "1 medium onion (7 to 8 ounces), cut into 1/2-inch dice"
+  - "1/2 large red bell pepper (6 to 8 ounces), cut into 1/2-inch dice"
+  - "2 to 3 sprigs fresh thyme, leaves removed and chopped (1/2 teaspoon)"
+  - "1/2 teaspoon ground cumin"
+  - "1/8 teaspoon turmeric"
+  - "1 pound Yukon Gold, Maine, PEI, or other all-purpose potatoes, peeled and cut into 1/2-inch dice"
+  - "3 cups Chicken Stock or Chicken Broth"
+  - "Kosher or sea salt and freshly ground black pepper, to taste"
+  - "2 teaspoons cornstarch, dissolved in 2 tablespoons water"
+  - "1 cup heavy cream"
+for_garnish:
+  - "2 tablespoons minced fresh chives or thinly sliced scallions"
+instructions:
+  - "Husk the corn. Carefully remove silk and rub ears with a towel. Cut kernels from cobs and place in a bowl (you should have about 2 cups). Scrape down cobs to extract milky substance and add to corn."
+  - "In a 3- to 4-quart heavy pot, add diced bacon over low heat. Cook until crisp and golden. Pour off all but 1 tablespoon of fat, leaving bacon in the pot."
+  - "Add butter, onion, red pepper, thyme, cumin, and turmeric. Sauté for about 8 minutes, until vegetables are tender but not browned."
+  - "Add corn kernels, potatoes, and stock. Turn up heat, cover, and boil vigorously for 10 minutes. Some potatoes will break up slightly; most should retain shape."
+  - "Reduce heat to medium. Season with salt and pepper. Stir cornstarch slurry into pot, stirring constantly. Bring back to a boil and cook until thickened slightly. Remove from heat and stir in cream. Adjust seasoning if needed."
+  - "If not serving immediately, let cool and refrigerate. Otherwise, let sit at room temperature up to 1 hour for flavors to meld."
+  - "When ready to serve, reheat over low heat without boiling. Ladle into bowls and sprinkle with chives."
+notes:
+  - "Makes about 7 cups. Serve as a first course or a light meal. This recipe is particularly good with common crackers, corn sticks, or skillet cornbread."
+media:
+  image: "images/corn-chowder.jpg"
+  voice_note: ""
+  story_fragments: ""
+related_recipes: []
+related_techniques:
+  - "slurry"
+  - "sauté"
+  - "chowder"
+  - "scraping corn cobs"
+source_notes: >
+  50 Chowders by Jasper White
+emotional_tags: []
+personal_notes: ""
+contributor: "Ryan Williamson"
+status: "final"
+collection: "Williamson Family Core"
+created: 2024-06-01
+last_updated: 2025-06-02
+template_variant: "standard"
+display_order: 11
+layout_hints: []
+style_class: ""
