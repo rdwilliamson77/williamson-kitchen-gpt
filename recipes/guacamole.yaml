@@ -1,48 +1,63 @@
 title: Guacamole
 slug: guacamole
-source: Williamson Family
+source: Ryan Williamson
 cuisine: Mexican
-category: dip
-servings: 4
-tags: [guacamole, avocado, mexican, dip, fresh, cinco de mayo]
-emotional_tags: []
-personal_notes: 
-contributor: 
-related_recipes: []
-collection: May Recipes
-status: draft
-created: 2025-05-01
-last_updated: 2025-06-05
+category: Appetizer
+servings: 8
+time:
+  prep: 20 minutes
+  cook: 0 minutes
+  active: 20 minutes
+  total: 20 minutes
+tags: [guacamole, dip, avocado, mexican, molcajete]
 layout: recipe
-context: 
-
+context: []
 ingredients:
-  - 3 ripe Hass avocados
-  - 1 small white onion, finely chopped
-  - 1–2 serrano chiles, finely chopped (seeds optional)
-  - 1 small bunch fresh cilantro, finely chopped (about ¼ cup)
-  - Juice of 1 lime (about 2 Tbsp)
-  - ½ tsp fine sea salt (or more to taste)
-  - Optional: 1 small Roma tomato, seeded and finely chopped
+  - 6 ripe Hass avocados, divided
+  - 1/2 cup finely diced white onion, divided
+  - 2 small ripe tomatoes, seeded and chopped
+  - 1–2 serrano peppers, finely minced (to taste)
+  - Juice of 2 limes
+  - Splash of fresh orange juice (about 1 tbsp)
+  - 1/4 cup chopped fresh cilantro, divided
+  - 1 tsp kosher salt, or to taste
+  - Freshly ground black pepper, to taste
+  - 1 tsp finely chopped fresh oregano
 
 instructions:
-  - |
-    1. Cut the avocados in half, remove the pits, and scoop the flesh into a medium bowl. Lightly mash with a fork or potato masher, leaving some texture.
-  - |
-    2. Add the chopped onion, serrano chile, and cilantro to the avocado. Stir gently to combine.
-  - |
-    3. Add lime juice and salt. Stir again, then taste and adjust seasoning as needed. If using, gently fold in the chopped tomato.
-  - |
-    4. Serve immediately, or cover with plastic wrap pressed directly on the surface of the guacamole to prevent browning. Best eaten fresh.
+  - Cut the avocados in half, remove the pits, and dice the flesh while still in the skin using a paring knife. Then scoop out into a bowl. Set aside half of the avocado chunks for folding in at the end.
+  - In a molcajete (or mortar and pestle), combine half of the diced onion, half of the cilantro, the minced serrano, salt, and chopped oregano. Grind into a coarse paste to release oils and flavors.
+  - Transfer the paste to a mixing bowl and add the lime juice, orange juice, and remaining onion and cilantro. Stir to combine.
+  - Add half of the avocado and mash gently into the mixture, preserving some texture.
+  - Taste and adjust seasoning with salt and pepper.
+  - Fold in the remaining avocado chunks and the seeded, chopped tomato. Mix gently to maintain a rustic consistency.
+  - Serve immediately, or press plastic wrap directly onto the surface to prevent browning.
 
-notes: []
+notes:
+  - To achieve clean, uniform chunks, dice the avocado in the shell before scooping—it saves time and helps preserve texture.
+  - Using a molcajete to grind the aromatics creates a richer, deeper flavor base without over-mixing the avocado.
+  - Tomatoes should be seeded before chopping to prevent excess moisture.
+  - Adjust serrano heat to taste, or substitute with jalapeño for a milder flavor.
+  - **Presentation tip**: For an elevated table presentation, line a low serving bowl, wide platter, or even a traditional molcajete with large green leaf lettuce. Mound the guacamole in the center and garnish with fresh lime wedges around the edges.
 
 media:
-  image: 
-  voice_note: 
+  image: null
+  voice_note: null
   story_fragments: []
 
 related_recipes: []
 related_techniques: []
-source_notes: >
-  This recipe reflects traditional central Mexican guacamole — no garlic, sour cream, or gimmicks. Just ripe ingredients, chopped and balanced by hand.
+
+source_notes: This version of Ryan Williamson’s signature guacamole incorporates Rick Bayless’s preferred method of using a molcajete to blend aromatics, enhancing flavor while preserving a rustic texture.
+
+emotional_tags: [crowd favorite, signature dish, chef-inspired]
+personal_notes: 
+contributor: Ryan Williamson
+collection: Williamson Family Kitchen
+status: final
+created: 2025-06-08
+last_updated: 2025-06-08
+template_variant: default
+display_order: 2
+layout_hints: [chunky, rustic, traditional-technique]
+style_class: recipe-card
