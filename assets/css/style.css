@@ -1,58 +1,86 @@
-/* Importing fonts from Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Garamond&family=Open+Sans:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Open+Sans:wght@300;400;600&display=swap');
 
-/* Setting the overall page styles */
 body {
-    font-family: 'Open Sans', sans-serif;
-    color: #333;
-    background-color: #f9f9f9;
-    margin: 0;
-    padding: 20px;
-    line-height: 1.6;
+  font-family: 'Open Sans', sans-serif;
+  color: #333;
+  background-color: #fdfdfc;
+  line-height: 1.7;
+  margin: 0;
+  padding: 0;
 }
 
-/* Styling for headings */
-h1, h2, h3 {
-    font-family: 'Garamond', serif;
-    color: #555;
+.recipe-page {
+  max-width: 960px;
+  margin: 2rem auto;
+  padding: 2rem 1rem;
+  background: white;
 }
 
-h1 {
-    font-size: 2.5em;
+.recipe-header h1 {
+  text-align: center;
+  font-family: 'EB Garamond', serif;
+  font-size: 2.75rem;
+  margin-bottom: 0.5rem;
+  color: #222;
 }
 
-h2 {
-    font-size: 2em;
+.recipe-meta {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #777;
+  margin-bottom: 1.5rem;
 }
 
-h3 {
-    font-size: 1.5em;
+.recipe-narrative {
+  text-align: center;
+  font-style: italic;
+  max-width: 700px;
+  margin: 0 auto 2rem;
+  color: #555;
 }
 
-/* Styling for ingredient sections */
-.ingredient-section {
-    margin-bottom: 20px;
+.recipe-body {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
 }
 
-.ingredient-section h3 {
-    color: #7a7a7a;
-    font-weight: 600;
-    text-transform: uppercase;
-    border-bottom: 1px solid #e0e0e0;
-    padding-bottom: 5px;
+.recipe-body .ingredients,
+.recipe-body .instructions {
+  padding: 1rem;
+  background: #fafafa;
+  border-radius: 4px;
 }
 
-ul.ingredients {
-    list-style-type: square;
-    margin-left: 20px;
+.recipe-body .ingredients {
+  flex: 0 0 30%;
+  text-align: center;
 }
 
-/* Styling for links */
-a {
-    color: #9a6e32;
-    text-decoration: none;
+.recipe-body .instructions {
+  flex: 1 1 65%;
+  text-align: left;
 }
 
-a:hover {
-    text-decoration: underline;
+.recipe-body h3 {
+  font-family: 'EB Garamond', serif;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+  color: #444;
+}
+
+ul, ol {
+  padding-left: 1.25rem;
+  margin-top: 0;
+}
+
+.recipe-notes {
+  margin-top: 2rem;
+  background-color: #f4f4f4;
+  padding: 1rem;
+  border-left: 4px solid #ccc;
 }

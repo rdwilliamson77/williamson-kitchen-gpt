@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>{{ page.title }} – Williamson Kitchen GPT</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <article class="recipe-page">
+
+    <!-- Title -->
+    <header class="recipe-header">
+      <h1>{{ page.title }}</h1>
+    </header>
+
+    <!-- Optional metadata -->
+    <section class="recipe-meta">
+      {% if page.servings %}<span>Serves: {{ page.servings }}</span>{% endif %}
+      {% if page.time.total %}<span>Time: {{ page.time.total }}</span>{% endif %}
+    </section>
+
+    <!-- Narrative -->
+    {% if page.narrative %}
+    <section class="recipe-narrative">
+      {{ page.narrative | markdownify }}
+    </section>
+    {% endif %}
+
+    <!-- Ingredients + Instructions layout -->
+    <section class="recipe-body">
+      <div class="ingredients">
+        <h3>Ingredients</h3>
+        <ul>
+          {% for item in page.ingredients %}
+            <li>{{ item }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="instructions">
+        <h3>Instructions</h3>
+        <ol>
+          {% for step in page.instructions %}
+            <li>{{ step }}</li>
+          {% endfor %}
+        </ol>
+      </div>
+    </section>
+
+    {% if page.notes %}
+    <section class="recipe-notes">
+      <h4>Notes</h4>
+      {{ page.notes | markdownify }}
+    </section>
+    {% endif %}
+
+  </article>
+</body>
+</html>
