@@ -1,13 +1,10 @@
 ---
-layout: default
-title: Williamson Kitchen GPT
+layout: page
+title: Home
 ---
+
+<link rel="stylesheet" href="/assets/css/style.css">
 
 # 🍽️ Welcome to the Williamson Family Kitchen
 
-This is a living family cookbook — organized, searchable, and filled with meaning.
-
-- Explore [all recipes](recipes/)
-- Or browse by category and cuisine (coming soon!)
-
-> _“A recipe is not just food. It’s a story passed from one generation to the next.”_
+This is a living cookbook. Explore recipes, organized by type and flavor.
