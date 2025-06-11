@@ -1,0 +1,18 @@
+title: Williamson Kitchen GPT
+description: A living family cookbook of recipes, stories, and memory
+theme: jekyll-theme-merlot
+markdown: kramdown
+
+collections:
+  recipes:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "recipes"
+    values:
+      layout: "page"
+
+exclude:
+  - README.md
