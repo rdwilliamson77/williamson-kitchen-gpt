@@ -4,15 +4,9 @@ theme: jekyll-theme-merlot
 markdown: kramdown
 
 collections:
-  recipes:
+  recipes_rendered:
     output: true
-
-defaults:
-  - scope:
-      path: ""
-      type: "recipes"
-    values:
-      layout: "page"
+    permalink: /recipes/:slug/
 
 exclude:
   - README.md
