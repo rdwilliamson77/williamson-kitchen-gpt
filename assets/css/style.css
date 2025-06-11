@@ -1,0 +1,58 @@
+/* Importing fonts from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Garamond&family=Open+Sans:wght@300;400;600&display=swap');
+
+/* Setting the overall page styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+/* Styling for headings */
+h1, h2, h3 {
+    font-family: 'Garamond', serif;
+    color: #555;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+/* Styling for ingredient sections */
+.ingredient-section {
+    margin-bottom: 20px;
+}
+
+.ingredient-section h3 {
+    color: #7a7a7a;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 5px;
+}
+
+ul.ingredients {
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+/* Styling for links */
+a {
+    color: #9a6e32;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
