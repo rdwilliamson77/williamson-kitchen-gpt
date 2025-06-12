@@ -1,105 +1,56 @@
-from pathlib import Path
+import os
 import yaml
-import datetime
-import csv
 
-# Paths
-recipes_dir = Path("recipes")
-index_yaml_file = Path("recipe_index.yaml")
-index_csv_file = Path("recipe_index.csv")
-index_log_file = Path("recipe_index.log")
-index_md_file = Path("recipe_index.md")
+RECIPE_DIR = "recipes"
+FIELDS_TO_RENDER = ["title", "ingredients", "instructions", "notes"]
 
-DEFAULT_FIELDS = {
-    "category": "main",
-    "cuisine": "",
-    "emotional_tags": [],
-    "personal_notes": "",
-    "story_ref": "",
-    "image": "",
-    "voice_note": "",
-    "status": "draft",
-    "collection": "",
-    "created": "",
-    "last_updated": "",
-    "contributor": "Ryan Williamson",
-    "related_recipes": []
-}
-
-def load_yaml(file_path):
+def load_yaml_file(path):
     try:
-        with open(file_path, 'r') as file:
-            return yaml.safe_load(file)
-    except Exception:
-        return {}
+        with open(path, 'r', encoding='utf-8') as f:
+            return yaml.safe_load(f)
+    except Exception as e:
+        print(f"⚠️ Skipping {path}: {e}")
+        return None
 
-def generate_index():
-    index = []
-    logs = []
-    today_str = datetime.date.today().isoformat()
+def render_markdown(recipe):
+    lines = []
+    if "title" in recipe:
+        lines.append(f"# {recipe['title']}")
+    else:
+        lines.append("# Untitled Recipe")
 
-    for recipe_file in recipes_dir.glob("*.yaml"):
-        data = load_yaml(recipe_file)
-        if not data or 'slug' not in data:
-            logs.append(f"⚠️ Missing slug or unreadable file: {recipe_file.name}")
-            continue
+    if "ingredients" in recipe:
+        lines.append("\n## Ingredients")
+        for item in recipe["ingredients"]:
+            lines.append(f"- {item}")
 
-        entry = {
-            "slug": data.get("slug"),
-            "title": data.get("title", data.get("slug", "Untitled")),
-            "category": data.get("category", DEFAULT_FIELDS["category"]),
-            "cuisine": data.get("cuisine", DEFAULT_FIELDS["cuisine"]),
-            "tags": data.get("tags", []),
-            "emotional_tags": data.get("emotional_tags", DEFAULT_FIELDS["emotional_tags"]),
-            "personal_notes": data.get("personal_notes", DEFAULT_FIELDS["personal_notes"]),
-            "story_ref": data.get("story_ref", DEFAULT_FIELDS["story_ref"]),
-            "image": data.get("image", f"images/{data.get('slug', 'unknown')}.jpg"),
-            "voice_note": data.get("voice_note", f"audio/{data.get('slug', 'unknown')}.m4a"),
-            "status": data.get("status", DEFAULT_FIELDS["status"]),
-            "collection": data.get("collection", DEFAULT_FIELDS["collection"]),
-            "created": data.get("created", today_str),
-            "last_updated": today_str,
-            "contributor": data.get("contributor", DEFAULT_FIELDS["contributor"]),
-            "related_recipes": data.get("related_recipes", DEFAULT_FIELDS["related_recipes"]),
-        }
+    if "instructions" in recipe:
+        lines.append("\n## Instructions")
+        for idx, step in enumerate(recipe["instructions"], 1):
+            lines.append(f"{idx}. {step}")
 
-        # Log missing fields
-        for key in DEFAULT_FIELDS:
-            if key not in data:
-                logs.append(f"⚠️ {recipe_file.name} missing field: {key}")
+    if "notes" in recipe:
+        lines.append("\n## Notes")
+        for note in recipe["notes"]:
+            lines.append(f"- {note}")
 
-        index.append(entry)
+    return "\n".join(lines)
 
-    # Sort
-    index.sort(key=lambda x: x["title"].lower())
+def write_markdown_file(yaml_filename, markdown_content):
+    base_name = os.path.splitext(yaml_filename)[0]
+    md_path = os.path.join(RECIPE_DIR, f"{base_name}.md")
+    with open(md_path, "w", encoding="utf-8") as f:
+        f.write(markdown_content)
+    print(f"✅ Rendered {md_path}")
 
-    # Write YAML
-    with open(index_yaml_file, "w") as f:
-        yaml.dump(index, f, sort_keys=False)
-
-    # Write CSV
-    with open(index_csv_file, "w", newline='') as f:
-        writer = csv.DictWriter(f, fieldnames=index[0].keys())
-        writer.writeheader()
-        writer.writerows(index)
-
-    # Write Log
-    with open(index_log_file, "w") as f:
-        f.write("\n".join(logs))
-
-    # Write Markdown
-    with open(index_md_file, "w") as f:
-        f.write("# 📘 Recipe Index\n\n")
-        f.write(f"Last updated: `{today_str}`\n\n")
-        f.write("| Title | Slug | Category | Cuisine | Status | Tags |\n")
-        f.write("|-------|------|----------|---------|--------|------|\n")
-        for item in index:
-            f.write(f"| {item['title']} | `{item['slug']}` | {item['category']} | {item['cuisine']} | {item['status']} | {', '.join(item['tags'])} |\n")
-
-    print(f"✅ YAML index written to {index_yaml_file}")
-    print(f"📄 CSV written to {index_csv_file}")
-    print(f"📝 Log written to {index_log_file}")
-    print(f"📘 Markdown index written to {index_md_file}")
+def main():
+    for filename in os.listdir(RECIPE_DIR):
+        if filename.endswith(".yaml"):
+            path = os.path.join(RECIPE_DIR, filename)
+            recipe = load_yaml_file(path)
+            if recipe:
+                markdown = render_markdown(recipe)
+                write_markdown_file(filename, markdown)
 
 if __name__ == "__main__":
-    generate_index()
+    main()
