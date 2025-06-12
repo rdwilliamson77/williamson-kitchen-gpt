@@ -1,8 +1,12 @@
 import os
 import yaml
 
-RECIPE_DIR = "recipes"
-FIELDS_TO_RENDER = ["title", "ingredients", "instructions", "notes"]
+SOURCE_DIR = "recipes"
+OUTPUT_DIR = "_recipes_rendered"
+INDEX_FILE = "index.md"
+
+# Make sure the output directory exists
+os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 def load_yaml_file(path):
     try:
@@ -21,36 +25,49 @@ def render_markdown(recipe):
 
     if "ingredients" in recipe:
         lines.append("\n## Ingredients")
-        for item in recipe["ingredients"]:
+        for item in recipe.get("ingredients", []):
             lines.append(f"- {item}")
 
     if "instructions" in recipe:
         lines.append("\n## Instructions")
-        for idx, step in enumerate(recipe["instructions"], 1):
+        for idx, step in enumerate(recipe.get("instructions", []), 1):
             lines.append(f"{idx}. {step}")
 
     if "notes" in recipe:
         lines.append("\n## Notes")
-        for note in recipe["notes"]:
+        for note in recipe.get("notes", []):
             lines.append(f"- {note}")
 
     return "\n".join(lines)
 
-def write_markdown_file(yaml_filename, markdown_content):
-    base_name = os.path.splitext(yaml_filename)[0]
-    md_path = os.path.join(RECIPE_DIR, f"{base_name}.md")
-    with open(md_path, "w", encoding="utf-8") as f:
-        f.write(markdown_content)
-    print(f"✅ Rendered {md_path}")
+def write_markdown_file(slug, content):
+    path = os.path.join(OUTPUT_DIR, f"{slug}.md")
+    with open(path, "w", encoding="utf-8") as f:
+        f.write(content)
+    print(f"✅ Rendered: {path}")
+
+def build_index(pages):
+    lines = ["# 🍴 Family Recipes\n"]
+    for slug, title in sorted(pages):
+        lines.append(f"- [{title}](_recipes_rendered/{slug})")
+    with open(INDEX_FILE, "w", encoding="utf-8") as f:
+        f.write("\n".join(lines))
+    print(f"📚 Updated index: {INDEX_FILE}")
 
 def main():
-    for filename in os.listdir(RECIPE_DIR):
+    pages = []
+    for filename in os.listdir(SOURCE_DIR):
         if filename.endswith(".yaml"):
-            path = os.path.join(RECIPE_DIR, filename)
+            slug = os.path.splitext(filename)[0]
+            path = os.path.join(SOURCE_DIR, filename)
             recipe = load_yaml_file(path)
             if recipe:
                 markdown = render_markdown(recipe)
-                write_markdown_file(filename, markdown)
+                write_markdown_file(slug, markdown)
+                title = recipe.get("title", slug.replace("-", " ").title())
+                pages.append((slug, title))
+
+    build_index(pages)
 
 if __name__ == "__main__":
     main()
