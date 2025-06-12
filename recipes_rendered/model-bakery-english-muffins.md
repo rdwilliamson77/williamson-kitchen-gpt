@@ -1,0 +1,76 @@
+---
+title: The Model Bakery’s English Muffins
+layout: recipe
+slug: model-bakery-english-muffins
+cuisine: American
+category: bread
+servings: 12 English muffins
+time: null
+narrative: []
+ingredients:
+- '**Biga**'
+- ½ cup / 75 g bread flour
+- ½ cup / 120 ml water
+- ⅛ tsp instant (also called quick-rising or bread machine) yeast
+- '**Dough**'
+- 1⅓ cups / 315 ml water
+- ¾ tsp instant (also called quick-rising or bread machine) yeast
+- 1 Tbsp plus 1 tsp extra-virgin olive oil
+- 1½ tsp fine sea salt
+- 2⅓ cups / 510 g unbleached all-purpose flour, as needed
+- ¼ cup / 35 g yellow cornmeal, preferably stone ground
+- 6 Tbsp / 90 ml melted Clarified Butter (page 237), as needed
+instructions:
+- '1. **To make the biga:** At least 1 day before cooking the muffins, combine the
+  flour, water, and yeast in a small bowl to make a sticky dough. Cover tightly with
+  plastic wrap and refrigerate for at least 12 hours or up to 24 hours. The biga will
+  rise slightly.
+
+  '
+- '2. **To make the dough:** Combine the biga, water, yeast, olive oil, and salt in
+  the bowl of a stand mixer. Affix the bowl to the mixer and fit it with the paddle
+  attachment. Mix on low speed until the mixture looks creamy, about 1 minute. Mix
+  in 1⅔ cups / 435 g of the flour to make a soft, sticky dough. Turn off the mixer,
+  cover the bowl with plastic wrap, and let stand for 20 minutes. (To mix by hand,
+  combine the water, biga, yeast, oil, and salt in a large bowl and break up the biga
+  with a wooden spoon. Stir in some of the flour to make a cohesive but tacky dough.
+  Cover and let stand for 20 minutes.)
+
+  '
+- '3. Mix in enough of the remaining flour to make a soft dough that barely clears
+  the mixer bowl. Replace the paddle with the dough hook. Knead on medium-low speed
+  (if the dough climbs up the hook, just pull it down) until the dough is smooth and
+  elastic, about 8 minutes. Turn out the dough onto a lightly floured work surface
+  and test its texture. It should feel tacky but not stick to the work surface. (To
+  mix by hand, knead on a floured work surface, adding more flour as necessary, until
+  the dough is smooth and feels tacky, about 10 minutes.)
+
+  '
+- '4. Shape the dough into a ball. Oil a medium bowl. Put the dough in the bowl and
+  turn to coat with oil, leaving the dough smooth-side up. Cover with plastic wrap.
+  Let stand in a warm place until almost doubled in volume, about 2 hours. (The dough
+  can also be refrigerated for 8 to 12 hours. Let stand at room temperature for 1
+  hour before proceeding to the next step.)
+
+  '
+- '5. Using a bowl scraper, scrape the dough out of the bowl onto a lightly floured
+  work surface. Cut into twelve equal pieces. Shape each into a 4-in / 10-cm round.
+  Sprinkle an even layer of cornmeal over a half-sheet pan. Place the rounds on the
+  cornmeal about 1 in / 2.5 cm apart. Turn the rounds to coat both sides with cornmeal.
+  Loosely cover the pan with plastic wrap. Let stand in a warm place until the rounds
+  have increased in volume by half and a finger pressed into a round leaves an impression
+  for a few seconds before filling up, about 1 hour.
+
+  '
+- '6. Melt 2 Tbsp of the clarified butter in a large, heavy skillet (preferably cast-iron)
+  over medium heat until melted and hot, but not smoking. In batches, add the dough
+  rounds to the skillet. Cook, adjusting the heat as needed so the muffins brown without
+  scorching, adding more clarified butter as needed. The undersides should be nicely
+  browned, about 6 minutes. Turn and cook until the other sides are browned and the
+  muffins are puffed, about 6 minutes more. Transfer to a paper towel–lined half-sheet
+  pan and let cool. (It will be tempting to eat these hot off the griddle, but let
+  them stand for at least 20 minutes to complete the cooking with carry-over hea
+
+  '
+notes: null
+---

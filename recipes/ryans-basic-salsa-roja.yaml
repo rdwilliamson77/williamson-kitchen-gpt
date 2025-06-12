@@ -42,26 +42,19 @@ instructions:
   - Add lime juice, salt, pepper, and cilantro. Pulse until just combined, leaving some texture.
   - Strain excess liquid for a thicker consistency, if desired.
 
-  options:
-    - To create a **Tex-Mex chipotle version**, add 1–2 chipotles in adobo sauce along with a spoonful of the adobo liquid during blending. This creates a smoky, slightly sweet variation with deep red color and bold flavor, perfect for grilled meats or queso fundido.
-    - To create a **traditional Oaxacan-style salsa de chile pasilla**, substitute dried pasilla or chile negro for the fresh serranos. Toast the dried chiles on a skillet until aromatic, then soak in hot water until soft. Blend with the other ingredients. Use less tomato for a darker, more chile-forward profile.
-    - For a **taquería-style table salsa**, reduce the tomatoes to 1 lb and add a splash of water during blending for a thinner, pourable texture. Increase garlic slightly. This version is typically mild and served at room temperature alongside tacos.
-    - For a **tomatillo-roja hybrid**, replace half of the Roma tomatoes with husked, halved tomatillos. Broil and blend them together for a tangier salsa that pairs well with pork or chicken enchiladas.
-    - To make a **creamy salsa roja**, add half an avocado or a spoonful of crema or sour cream to the blended salsa. Blend until smooth. Great with chips or drizzled over breakfast tacos.
-
 notes: >
   This salsa holds well in the refrigerator for up to 5 days. It improves in flavor overnight. Always taste for seasoning before serving, as acidity and heat can mellow over time.
 
 media:
-  image: 
-  voice_note: 
-  story_fragments: 
+  image: null
+  voice_note: null
+  story_fragments: []
 
 related_recipes: []
 related_techniques: []
 source_notes: >
   Combines traditional Mexican fire-roasting methods with modern blender prep for speed and flexibility.
 template_variant: base
-display_order: 
-layout_hints: 
-style_class: 
+display_order: null
+layout_hints: []
+style_class: null

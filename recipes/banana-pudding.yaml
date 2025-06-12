@@ -4,20 +4,21 @@ source: "Kathryn Witherspoon"
 cuisine: "Southern"
 category: "Dessert"
 servings: "6"
-prep_time: "5"
-cook_time: "20"
-total_time: "25"
+time:
+  prep: "5"
+  cook: "20"
+  total: "25"
 
 tags:
   - "pie"
   - "pudding"
   - "banana pudding"
-	- "soul food"
-	
-layout: "Template 1"
+  - "soul food"
+
+layout: "recipe"
 
 context: |
-  This is Kathyn Witherspoon's recipe, or Mamaw to her numerous grand children and great grand children. Its a recipe that I susspect has been passed down for generations. It's been around family gatherings my entire life. This recipe can easily be transformed into Coconut Cream Pie or Chocolate Pie. However, my favorite way to have this pudding is hot, right off the stove.
+  This is Kathryn Witherspoon's recipe, or Mamaw to her numerous grandchildren and great-grandchildren. It’s a recipe that I suspect has been passed down for generations. It's been around family gatherings my entire life. This recipe can easily be transformed into Coconut Cream Pie or Chocolate Pie. However, my favorite way to have this pudding is hot, right off the stove.
 
 ingredients:
   - item: "5 tbsp flour"
@@ -40,16 +41,28 @@ instructions:
 notes: |
   You can use this filling for either banana or coconut cream pie depending on which addition you make at the end. Be sure to temper the egg yolks carefully to avoid curdling.
 
-image: images/banana-pudding.jpg
-voice_note: 
-story_fragments:
-  - Family lore is that, as a young man, Edgar "Papaw" Witherspoon's mother made him a chocolate pie almost everyday. Not a piece of pie, a whole pie. Shockingly, when he joined the Army Air Force in 1941 he was initially rejected because he was under weight at 120 pounds. Papaw had very particular food tastes and a limited palate, but those things he loved he ate often, sometimes everyday, like chocolate pie. In fact, the entire time I knew him, he ate Raisen Bran everyday for breakfast. Later in his life he ventured out and tried strawberry preserves. He was amazed at how good it was and couldn't believe that he'd not known about it his whole life. After that discovery, as you might suspect, he ate strawberry preserves very often until the end of his life. So, this simple and time-tested pudding recipe passed the strict scrutiny of Papaw's judgement and has continued on to a place of honor in the pantheon of Williamson family classics.
-	
+media:
+  image: images/banana-pudding.jpg
+  voice_note: null
+  story_fragments:
+    - Family lore is that, as a young man, Edgar "Papaw" Witherspoon's mother made him a chocolate pie almost every day. Not a piece of pie — a whole pie. Shockingly, when he joined the Army Air Force in 1941, he was initially rejected because he was underweight at 120 pounds. Papaw had very particular food tastes and a limited palate, but those things he loved, he ate often — sometimes every day — like chocolate pie. In fact, the entire time I knew him, he ate Raisin Bran every day for breakfast. Later in his life, he ventured out and tried strawberry preserves. He was amazed at how good it was and couldn't believe he’d missed out on it his whole life. After that discovery, as you might suspect, he ate strawberry preserves very often until the end of his life. So, this simple and time-tested pudding recipe passed the strict scrutiny of Papaw's judgment and has continued on to a place of honor in the pantheon of Williamson family classics.
+
 related_recipes:
   - coconut-cream-pie.yaml
-  -
-related_techniques:
+
+techniques:
   - techniques/tempering-eggs.yaml
   - techniques/using-a-double-boiler.yaml
 
 source_notes: ""
+emotional_tags: []
+personal_notes: []
+contributor: "Mamaw"
+collection: family-recipes
+status: transcribed
+created: 2025-06-08
+last_updated: 2025-06-11
+template_variant: default
+display_order: null
+layout_hints: []
+style_class: null

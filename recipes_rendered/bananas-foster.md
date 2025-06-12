@@ -1,0 +1,29 @@
+---
+title: Bananas Foster
+layout: recipe
+slug: bananas-foster
+cuisine: Creole / New Orleans
+category: Dessert
+servings: '2'
+time:
+  prep: ''
+  cook: ''
+  total: ''
+narrative: ''
+ingredients:
+- item: 4 tablespoons (1/2 stick) unsalted butter
+- item: 4 tablespoons brown sugar
+- item: 2 ripe bananas, peeled and sliced lengthwise
+- item: 1/4 teaspoon cinnamon
+- item: 2 tablespoons banana liqueur
+- item: 3 ounces light or dark rum
+- item: 1 1/2 cups French Vanilla Ice Cream (page 172)
+instructions:
+- Melt butter in a flat chafing dish or skillet. Add brown sugar and stir until sugar
+  is melted. Add bananas and sauté until tender, about 3 minutes on each side. Sprinkle
+  with cinnamon.
+- Pour banana liqueur and rum over bananas, shake pan to distribute the liquid, and
+  flame. Baste bananas with the flaming sauce until flames die out.
+- Serve immediately over the ice cream.
+notes: []
+---

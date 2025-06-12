@@ -1,0 +1,62 @@
+---
+title: Classic Chicken Stock
+layout: recipe
+slug: classic-chicken-stock
+cuisine: French
+category: stock
+servings: 4 quarts
+time: null
+narrative: ''
+ingredients:
+- 5 lb chicken bones (backs, wings, necks, and/or carcasses)
+- 1 large onion, quartered (skin on for color)
+- 2 carrots, chopped
+- 2 celery stalks, chopped
+- 1 head garlic, halved crosswise
+- 1 small bunch parsley stems
+- 1 bay leaf
+- 1 tsp black peppercorns, whole
+- 1 sprig thyme
+- 1 gallon cold water (plus more as needed)
+- optional: 1 tbsp tomato paste (for richer color and umami)
+- optional: 1 leek (cleaned and chopped)
+instructions:
+- Preheat oven to 425°F. Spread chicken bones on a sheet pan and roast for 45 minutes
+  until well browned, turning once.
+- In a large stockpot, combine roasted bones, cold water, and any browned bits from
+  the roasting pan.
+- Slowly bring to a gentle simmer over medium heat. Skim off any foam or scum that
+  rises.
+- Once simmering, add vegetables, herbs, and aromatics. Do not boil; maintain a gentle
+  bubble.
+- Simmer uncovered for 6–8 hours, replenishing water as needed to keep bones submerged.
+- In the final hour, taste the stock for body. Add more time for richness, if needed.
+- Strain through a fine-mesh sieve or cheesecloth into a clean container. Discard
+  solids.
+- Cool quickly in an ice bath. Store in fridge up to 5 days or freeze in portions
+  up to 6 months.
+notes: '**To Make Chicken Base (Reduced Stock):**
+
+  - After straining, return stock to a clean pot and simmer uncovered until reduced
+  by half or more.
+
+  - Cool and store as a base for gravies, pan sauces, or soups. The flavor will be
+  concentrated and gelatinous when chilled.
+
+
+  **Variations:**
+
+  - **Pho-Inspired Base:** Add a 3-inch piece of ginger (charred), 1 cinnamon stick,
+  2 star anise, 1 tsp coriander seeds, and 1 tsp fennel seeds during the simmer.
+
+  - **Asian Broth:** Use lemongrass, ginger, scallion, and a touch of fish sauce for
+  a Southeast Asian profile.
+
+  - **Mexican Base:** Add epazote, dried guajillo or pasilla chili, and charred onion
+  for a caldo-style stock.
+
+  - **Herbaceous Variation:** Add tarragon, marjoram, or rosemary in the last 30 minutes
+  for a French-forward note.
+
+  '
+---

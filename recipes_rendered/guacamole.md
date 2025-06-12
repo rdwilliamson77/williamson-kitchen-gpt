@@ -1,0 +1,49 @@
+---
+title: Guacamole
+layout: recipe
+slug: guacamole
+cuisine: Mexican
+category: Appetizer
+servings: 8
+time:
+  prep: 20 minutes
+  cook: 0 minutes
+  active: 20 minutes
+  total: 20 minutes
+narrative: []
+ingredients:
+- 6 ripe Hass avocados, divided
+- 1/2 cup finely diced white onion, divided
+- 2 small ripe tomatoes, seeded and chopped
+- 1–2 serrano peppers, finely minced (to taste)
+- Juice of 2 limes
+- Splash of fresh orange juice (about 1 tbsp)
+- 1/4 cup chopped fresh cilantro, divided
+- 1 tsp kosher salt, or to taste
+- Freshly ground black pepper, to taste
+- 1 tsp finely chopped fresh oregano
+instructions:
+- Cut the avocados in half, remove the pits, and dice the flesh while still in the
+  skin using a paring knife. Then scoop out into a bowl. Set aside half of the avocado
+  chunks for folding in at the end.
+- In a molcajete (or mortar and pestle), combine half of the diced onion, half of
+  the cilantro, the minced serrano, salt, and chopped oregano. Grind into a coarse
+  paste to release oils and flavors.
+- Transfer the paste to a mixing bowl and add the lime juice, orange juice, and remaining
+  onion and cilantro. Stir to combine.
+- Add half of the avocado and mash gently into the mixture, preserving some texture.
+- Taste and adjust seasoning with salt and pepper.
+- Fold in the remaining avocado chunks and the seeded, chopped tomato. Mix gently
+  to maintain a rustic consistency.
+- Serve immediately, or press plastic wrap directly onto the surface to prevent browning.
+notes:
+- To achieve clean, uniform chunks, dice the avocado in the shell before scooping—it
+  saves time and helps preserve texture.
+- Using a molcajete to grind the aromatics creates a richer, deeper flavor base without
+  over-mixing the avocado.
+- Tomatoes should be seeded before chopping to prevent excess moisture.
+- Adjust serrano heat to taste, or substitute with jalapeño for a milder flavor.
+- '**Presentation tip**: For an elevated table presentation, line a low serving bowl,
+  wide platter, or even a traditional molcajete with large green leaf lettuce. Mound
+  the guacamole in the center and garnish with fresh lime wedges around the edges.'
+---
