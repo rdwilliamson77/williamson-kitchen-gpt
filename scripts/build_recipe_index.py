@@ -5,7 +5,6 @@ SOURCE_DIR = "recipes"
 OUTPUT_DIR = "_recipes_rendered"
 INDEX_FILE = "index.md"
 
-# Make sure the output directory exists
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 def load_yaml_file(path):
@@ -40,8 +39,8 @@ def render_markdown(recipe):
 
     return "\n".join(lines)
 
-def write_markdown_file(slug, content):
-    path = os.path.join(OUTPUT_DIR, f"{slug}.md")
+def write_html_file(slug, content):
+    path = os.path.join(OUTPUT_DIR, f"{slug}.html")
     with open(path, "w", encoding="utf-8") as f:
         f.write(content)
     print(f"✅ Rendered: {path}")
@@ -49,7 +48,7 @@ def write_markdown_file(slug, content):
 def build_index(pages):
     lines = ["# 🍴 Family Recipes\n"]
     for slug, title in sorted(pages):
-        lines.append(f"- [{title}](_recipes_rendered/{slug})")
+        lines.append(f"- [{title}](_recipes_rendered/{slug}.html)")
     with open(INDEX_FILE, "w", encoding="utf-8") as f:
         f.write("\n".join(lines))
     print(f"📚 Updated index: {INDEX_FILE}")
@@ -63,7 +62,7 @@ def main():
             recipe = load_yaml_file(path)
             if recipe:
                 markdown = render_markdown(recipe)
-                write_markdown_file(slug, markdown)
+                write_html_file(slug, markdown)
                 title = recipe.get("title", slug.replace("-", " ").title())
                 pages.append((slug, title))
 
