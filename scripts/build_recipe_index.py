@@ -34,7 +34,7 @@ def render_markdown(recipe):
 
     if "notes" in recipe:
         lines.append("\n## Notes")
-        for note in recipe.get("notes", []):
+        for note in recipe.get("notes") or []:
             lines.append(f"- {note}")
 
     return "\n".join(lines)
