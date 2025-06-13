@@ -57,3 +57,16 @@ def main():
     pages = []
     for filename in os.listdir(SOURCE_DIR):
         if filename.endswith(".yaml"):
+            slug = os.path.splitext(filename)[0]
+            path = os.path.join(SOURCE_DIR, filename)
+            recipe = load_yaml_file(path)
+            if recipe:
+                markdown = render_markdown(recipe)
+                write_html_file(slug, markdown)
+                title = recipe.get("title", slug.replace("-", " ").title())
+                pages.append((slug, title))
+
+    build_index(pages)
+
+if __name__ == "__main__":
+    main()
