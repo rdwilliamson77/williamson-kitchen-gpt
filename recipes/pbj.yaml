@@ -1,0 +1,43 @@
+title: Peanut Butter and Jelly Sandwich
+slug: pbj
+source: family
+cuisine: American
+category: sandwich
+servings: 1
+time:
+  prep: 2 minutes
+  cook: 0 minutes
+  total: 2 minutes
+tags: [classic, lunchbox, kid-friendly, no-cook]
+emotional_tags: [nostalgia, comfort]
+personal_notes: ""
+context: ""
+ingredients:
+  - 2 slices sandwich bread (white or whole wheat)
+  - 2 tablespoons peanut butter (smooth or crunchy)
+  - 1½ tablespoons fruit jelly or jam (grape, strawberry, or your favorite)
+instructions:
+  - Lay the two slices of bread on a clean surface.
+  - Spread peanut butter evenly over one slice.
+  - Spread jelly evenly over the other slice.
+  - Press the slices together, spreads facing inward.
+  - Cut in half diagonally or vertically, if desired.
+notes:
+  - Try using toasted bread for a firmer, warmer version.
+  - Use almond butter or other nut butters for variation.
+media:
+  image: images/pbj.jpg
+  voice_note: audio/pbj.m4a
+  story_fragments: []
+related_recipes: []
+techniques: []
+source_notes: ""
+contributor: Ryan Williamson
+collection: ""
+status: final
+created: 2025-06-11
+last_updated: 2025-06-11
+template_variant: default
+display_order: 0
+layout_hints: []
+style_class: classic
