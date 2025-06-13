@@ -8,7 +8,7 @@ time:
   prep: ""
   cook: ""
   total: ""
-tags: []
+tags: [chocolate, dessert]
 layout: "recipe"
 context:
   story: >
