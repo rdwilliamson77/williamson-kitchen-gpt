@@ -2,7 +2,7 @@ import os
 import yaml
 
 SOURCE_DIR = "recipes"
-OUTPUT_DIR = "_recipes_rendered"
+OUTPUT_DIR = "recipes_rendered"
 INDEX_FILE = "index.md"
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
@@ -48,7 +48,7 @@ def write_html_file(slug, content):
 def build_index(pages):
     lines = ["# 🍴 Family Recipes\n"]
     for slug, title in sorted(pages):
-        lines.append(f"- [{title}](_recipes_rendered/{slug}.html)")
+        lines.append(f"- [{title}](recipes_rendered/{slug}.html)")
     with open(INDEX_FILE, "w", encoding="utf-8") as f:
         f.write("\n".join(lines))
     print(f"📚 Updated index: {INDEX_FILE}")
@@ -57,16 +57,3 @@ def main():
     pages = []
     for filename in os.listdir(SOURCE_DIR):
         if filename.endswith(".yaml"):
-            slug = os.path.splitext(filename)[0]
-            path = os.path.join(SOURCE_DIR, filename)
-            recipe = load_yaml_file(path)
-            if recipe:
-                markdown = render_markdown(recipe)
-                write_html_file(slug, markdown)
-                title = recipe.get("title", slug.replace("-", " ").title())
-                pages.append((slug, title))
-
-    build_index(pages)
-
-if __name__ == "__main__":
-    main()
